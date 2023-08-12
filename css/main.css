@@ -1,0 +1,268 @@
+
+body{
+    width: 85%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(214, 208, 208);
+    
+}
+
+
+
+h1{
+    background: rgb(235, 106, 106);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    
+}
+h2{
+    color: rgb(214, 78, 78);
+}
+
+
+#primary-nav{
+    display: flex;
+    width: 98%;
+    background: rgb(101, 142, 218);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: auto;
+}
+#primary-nav :hover{
+    color: gold;
+}
+
+#primary-nav ul li{
+    display: inline-block;
+    padding-right: 13px;
+}
+#primary-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#main-content{
+    width: 95%;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+}
+
+#section1_index{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+#section1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    
+}
+
+
+#more_vaccine_info{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:auto;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+
+#section2{
+    display: flex;
+    width: 80%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 100px;
+}
+#precaution_div{
+    width: 40%;
+}
+#social_div{
+    width:40%;
+    
+}
+
+
+#mRNA_article{
+    width:50%;
+}
+
+#explanation_image{
+    width: 60%;
+    height: auto;
+}
+#social_dis{
+    width: 100%;
+    height: auto;
+}
+#precaution_image{
+    width: 100%;
+    height: auto;
+}
+#img2{
+    width: 100%;
+}
+#vaccine_img{
+    width:45%;
+    height: auto;
+    margin-top: 70px;
+}
+
+
+#vaccine_table{
+    border-collapse: collapse;
+    width: 80%;
+}
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+th{
+    background-color: rgb(235, 106, 106);
+}
+td{
+    background-color: rgb(139, 166, 216);
+}
+
+
+
+#dark_or_light-mode{
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    cursor: pointer;
+}
+
+
+
+footer{
+    margin-top: 100px;
+    width:100%;
+    padding:40px;
+    background: black;
+    color:white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer-nav :hover{
+    color: gold;
+}
+
+
+#contactform {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  #contactform label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  
+  #name,
+  #email,
+  #contact,
+  #comment {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ 
+  #submit,
+  #reset {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #submit {
+    margin-right: 10px;
+  }
+  
+  #submit:hover,
+  #reset:hover {
+    background-color: #45a049;
+  }
+
+
+@media screen and (max-width:840px){
+    h1{
+        text-align: center;
+    }
+    
+    #primary-nav ul{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #primary-nav ul li{
+        padding: 10px;
+        padding-right: 50px;
+    }
+    #explanation_image{
+        width: 100%;
+    }
+    #section2{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+    #precaution_div, #social_div{
+        width: 100%;
+    }
+    #mRNA_article{
+        width:100%;
+    }
+    #vaccine_img{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+    #contactform {
+        max-width: 100%;
+      }
+}
